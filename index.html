@@ -1,106 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>Sridharan's | Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio of Sridharan Parthiban, Data Scientist." />
+  <meta name="description" content="Portfolio of Sridharan Parthiban, a data enthusiast and fresher skilled in Python, SQL, Power BI, Excel, and HTML." />
 
-  <!-- Google Fonts -->
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
 
-  <!-- Font Awesome -->
+  <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
-  <!-- CSS -->
+  <!-- Styles -->
   <link rel="stylesheet" href="css/style.css" />
 
-  <!-- Favicon -->
+  <!-- ⭐ ADD THIS HERE — YOUR NEW LOGO ⭐ -->
   <link rel="icon" type="image/png" href="assets/logo.avif" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    { 
+      "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sridharan Parthiban",
+    "jobTitle": "Data Enthusiast",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "India"
+    },
+    "email": "mailto:sridharparthiban111@gmail.com",
+    "telephone": "+91-9677836192",
+    "url": "https://example.com",
+    "sameAs": [
+      "https://github.com/placeholder",
+      "https://www.linkedin.com/in/placeholder"
+    ]
+     }
+  </script>
 </head>
-
 <body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="header-left">
+        <span class="header-tag">My Portfolio</span>
+      </div>
+      <nav class="header-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-social">
+        <a href="https://github.com/Sridharan-28" target="_blank" rel="noopener noreferrer"  class="social-link">
+            <i class="fab fa-github"></i></a>
 
-<!-- ================= HEADER ================= -->
-<header class="header">
-  <div class="container header-inner">
-    <span class="header-tag">My Portfolio</span>
+        <a href="https://www.linkedin.com/in/sridharan-parthiban-071442264/" target="_blank"  rel="noopener noreferrer" class="social-link">
+       <i class="fab fa-linkedin"></i></a>
 
-    <nav class="header-nav">
-      <ul class="nav-list">
-        <li><a href="#home" class="nav-link active">Home</a></li>
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#services" class="nav-link">Services</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-      </ul>
-    </nav>
-
-    <button class="nav-toggle">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</header>
-
-
-<!-- ================= HERO ================= -->
-<section id="home" class="hero">
-
-  <div class="container hero-inner">
-
-    <!-- Left -->
-    <div class="hero-text">
-
-      <p class="hero-greeting">Hi,</p>
-
-      <h1 class="hero-title">
-        I'm <span class="hero-name">Sridharan Parthiban</span>
-      </h1>
-
-      <p class="hero-role">Data Scientist</p>
-
-      <!-- Social Icons -->
-      <div class="hero-social">
-        <a href="https://github.com/Sridharan-28" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-
-        <a href="https://www.linkedin.com/in/sridharan-parthiban-071442264/" target="_blank">
-          <i class="fab fa-linkedin"></i>
-        </a>
-
-        <a href="https://www.instagram.com/_worldofsridhar_/" target="_blank">
-          <i class="fab fa-instagram"></i>
-        </a>
+      
+        <a href="https://www.instagram.com/_worldofsridhar_/"target="_blank"  rel="noopener noreferrer"  class="social-link">
+        <i class="fab fa-instagram"></i></a>
       </div>
 
-      <!-- Button -->
-      <a href="#contact" class="btn btn-primary hero-btn">Hire Me</a>
-
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
     </div>
+  </header>
 
-    <!-- Right Image -->
-    <div class="hero-image-wrapper">
-      <div class="hero-glow"></div>
-      <div class="hero-image-ring">
-        <img src="assets/home.png" alt="Sridharan Photo" class="hero-image" />
+  <!-- Main -->
+  <main >
+    <!-- Hero -->
+    <section id="home" class="hero section reveal"> 
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-greeting">Hello,</p>
+           
+          <h1 class="hero-title">
+            I'm <span class="hero-name">Sridharan Parthiban</span>
+            </h1>
+
+           <p class="hero-role"> Data Scientist </p>
+
+            <p class="hero-location">
+            <i class="fas fa-map-marker-alt location-icon"></i>
+            From India
+            </p>
+          <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">Hire Me</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <div class="hero-glow"></div>
+        <div class="hero-image-ring">
+          <img src="assets/home.png" alt="photo" class="hero-image" />
+         </div>
+
+        </div>
       </div>
-    </div>
-
-  </div>
-
-  <!-- Scroll Down -->
-  <div class="scroll-down">
-    <span>Scroll</span>
-    <i class="fas fa-arrow-down"></i>
-  </div>
-
-</section>
-
-
+    </section>
 
     <!-- About -->
     <section id="about" class="section reveal">
@@ -426,7 +431,6 @@
   <script src="js/main.js"></script>
 </body>
 </html>
-
 
 
 
